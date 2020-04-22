@@ -1,3 +1,7 @@
 for i in range(100):
-    print("hello world-branch test")
+    if i%3 == 0:
+        print ('fiz')
+    else:
+        print(i)
+
 
